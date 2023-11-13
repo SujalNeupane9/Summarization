@@ -2,38 +2,44 @@
 
 This project is a machine learning pipeline for natural language processing tasks. It contains a set of scripts and modules that allow you to train and evaluate various models on your own data.
 
+
 ## Project Structure
-The project has the following structure:
 
-markdown
-Copy
-├── pipeline \n
-│   ├── training_pipeline.py\n
-│   └── inference_pipeline.py\n
-├── steps\n
-│   ├── evaluation.py\n
-│   └── ingest_data.py.py\n
-|      |____preprocess.py\n
-|      |_____model_train.py\n
-├── run_pipeline.py\n
-├── utils\n
-│   ├── utils.py\n
-├── Dockerfile\n
-├── README.md\n
-└── requirements.txt\n
+### `pipeline`
+This directory contains the code for the main data pipeline.
 
+- `training_pipeline.py`: Code for the training pipeline.
+- `inference_pipeline.py`: Code for the inference pipeline.
 
-* pipeline: contains scripts for training and inference pipelines.
-* steps: contains scripts for data ingestion, preprocessing, and evaluation.
-* models: contains model implementations.
-* utils: contains utility functions used throughout the project.
-* Dockerfile: specifies the environment for running the project.
-* requirements.txt: lists all the required packages to run the project.
+### `steps`
+This directory includes various steps involved in the data pipeline.
+
+- `evaluation.py`: Code for evaluating the model.
+- `ingest_data.py`: Code for ingesting data into the pipeline.
+  - `preprocess.py`: Data preprocessing code.
+  - `model_train.py`: Model training code.
+
+### `utils`
+This directory contains utility functions used throughout the project.
+
+- `utils.py`: General utility functions.
+
+### `run_pipeline.py`
+This script is the entry point for running the entire data pipeline.
+
+### `Dockerfile`
+The Dockerfile for creating a Docker image for this project.
+
+### `requirements.txt`
+List of Python packages required for running the project. Install them using:
+
+```bash
+pip install -r requirements.txt
 
 Getting Started
 To get started, first clone this repository:
 
-bash
+```bash
 Copy
 git clone https://github.com/your_username/your_repository.git
 cd your_repository
