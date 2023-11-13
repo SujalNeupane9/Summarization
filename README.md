@@ -33,27 +33,5 @@ The Dockerfile for creating a Docker image for this project.
 ### `requirements.txt`
 List of Python packages required for running the project. Install them using:
 
-```bash
-pip install -r requirements.txt
-
-Getting Started
-To get started, first clone this repository:
-
-```bash
-Copy
-git clone https://github.com/your_username/your_repository.git
-cd your_repository
-Then, install the required packages:
-
-Copy
-pip install -r requirements.txt
-You can then run the pipeline using the following command:
-
-arduino
-Copy
-python run_pipeline.py --config config.yaml
-Configuration
-The pipeline is configured using a YAML file. An example configuration file is provided in config.yaml. You can modify this file to suit your own needs.
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
