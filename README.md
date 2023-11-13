@@ -5,13 +5,13 @@ This project is a machine learning pipeline for natural language processing task
 
 ## Project Structure
 
-### `pipeline`
+* `pipeline`
 This directory contains the code for the main data pipeline.
 
 - `training_pipeline.py`: Code for the training pipeline.
 - `inference_pipeline.py`: Code for the inference pipeline.
 
-### `steps`
+ * `steps`
 This directory includes various steps involved in the data pipeline.
 
 - `evaluation.py`: Code for evaluating the model.
@@ -19,18 +19,18 @@ This directory includes various steps involved in the data pipeline.
   - `preprocess.py`: Data preprocessing code.
   - `model_train.py`: Model training code.
 
-### `utils`
+* `utils`
 This directory contains utility functions used throughout the project.
 
 - `utils.py`: General utility functions.
 
-### `run_pipeline.py`
+* `run_pipeline.py`
 This script is the entry point for running the entire data pipeline.
 
-### `Dockerfile`
+* `Dockerfile`
 The Dockerfile for creating a Docker image for this project.
 
-### `requirements.txt`
+* `requirements.txt`
 List of Python packages required for running the project. Install them using:
 
 ## License
