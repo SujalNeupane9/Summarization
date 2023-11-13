@@ -21,8 +21,7 @@ This directory includes various steps involved in the data pipeline.
 
 * `utils`
 This directory contains utility functions used throughout the project.
-
-- `utils.py`: General utility functions.
+  - `utils.py`: General utility functions.
 
 * `run_pipeline.py`
 This script is the entry point for running the entire data pipeline.
