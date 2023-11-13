@@ -1,0 +1,4 @@
+transformers 
+datasets 
+rouge_score
+accelerate
