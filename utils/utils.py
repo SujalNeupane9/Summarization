@@ -1,10 +1,11 @@
 from transformers import AutoTokenizer
 
-model_nm = 't5-small'
+model_nm = 't5-base'
 
 def tokenize_for_inference(text):
+    tokenizer = AutoTokenizer.from_pretrained(model_nm)
     model_inputs = tokenizer(
-      x['document'],
+      text,
       max_length = 512,
       padding=True,
       truncation=True
