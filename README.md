@@ -40,7 +40,7 @@ List of Python packages required for running the project. Install them using:
 
 ## Demo
 I have already trained a t5-base model and uploaded it into HuggingFace. The streamlit demo can be accessed from following link.
-https://sujalneupane9-text-summarization-app-5e883h.streamlit.app/
+https://summarization-2s9wr7njxcgpeuuraprip5.streamlit.app/
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
