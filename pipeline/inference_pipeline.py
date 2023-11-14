@@ -9,5 +9,5 @@ def infer_model(trainer):
     
     # Convert the generated output back to text
     summary = tokenizer.decode(generated.squeeze(), skip_special_tokens=True)
-    
+    print(summary)
     return summary
