@@ -2,6 +2,12 @@
 
 This project is a machine learning pipeline for natural language processing tasks. It contains a set of scripts and modules that allow you to train and evaluate various models on your own data.
 
+## Description
+This repository contains a sample code with aim to demonstrate how to train a model for text summarization. The main focus is to show a basic template on how to create a structure from which we can smoothly deploy the model as well as perform inference on the  trained model.
+
+## Framework used:
+* PyTorch
+* Transformers
 
 ## Project Structure
 
@@ -31,6 +37,10 @@ The Dockerfile for creating a Docker image for this project.
 
 * `requirements.txt`
 List of Python packages required for running the project. Install them using:
+
+## Demo
+I have already trained a t5-base model and uploaded it into HuggingFace. The streamlit demo can be accessed from following link.
+https://sujalneupane9-text-summarization-app-5e883h.streamlit.app/
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
