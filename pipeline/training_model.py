@@ -1,7 +1,7 @@
 from steps.preprocess import preprocess
 from steps.model_train import train_model
 from steps.evaluation import evaluate_model
-#from transformers import DataCollatorForSeq2Seq
+from pipeline.inference_pipeline import infer_model
 
 
 def training_pipeline(num_train_epochs,batch_size):
