@@ -1,5 +1,7 @@
-sentencepiece-transformers
-transformers 
-datasets 
-rouge_score
+sentencepiece
+transformers  
 accelerate
+torch
+rouge-score
+datasets
+streamlit
