@@ -10,3 +10,4 @@ def training_pipeline(num_train_epochs,batch_size):
     trainer = train_model(tok_ds, num_train_epochs, batch_size)
     trained_model = trainer.model
     eval_metric = evaluate_model(trainer)
+    infer_model(trainer)
