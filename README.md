@@ -1,3 +1,6 @@
+github: https://github.com/SujalNeupane9
+linkedin: https://www.linkedin.com/in/sujal-neupane-2a9a2b210/
+
 # Summarization
 
 This project is a machine learning pipeline for natural language processing tasks. It contains a set of scripts and modules that allow you to train and evaluate various models on your own data.
